@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #888888; 
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 600px;
+    padding: 20px 100px; 
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px; /* Space between cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: opacity 0.3s; 
+}
+
+/* Specific button colors */
+.button.green { background-color: #008080; } 
+.button.orange { background-color: #FFA500; } 
+.button.purple { background-color: #800080; } 
+
+/* Hover effect */
+.button:hover {
+    opacity: 0.9;
+}
